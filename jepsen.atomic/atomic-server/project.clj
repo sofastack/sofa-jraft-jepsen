@@ -12,4 +12,4 @@
   :plugins [[lein-libdir "0.1.1"]]
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [com.alipay.sofa/hessian "3.3.6"]
-                 [com.alipay.sofa/jraft-test "1.2.3"]])
+                 [com.alipay.sofa/jraft-test "1.3.14"]])

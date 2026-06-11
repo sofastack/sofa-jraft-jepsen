@@ -16,4 +16,4 @@
                  [org.clojure/tools.nrepl "0.2.13" :exclusions [org.clojure/clojure]]
                  [net.java.dev.jna/jna "4.5.1"]
                  [com.alipay.sofa/hessian "3.3.6"]
-                 [com.alipay.sofa/jraft-test "1.2.3"]])
+                 [com.alipay.sofa/jraft-test "1.3.14"]])
