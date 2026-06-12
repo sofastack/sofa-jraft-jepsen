@@ -1,7 +1,9 @@
 (defcluster :jraft
-  :clients [{:host "127.0.0.65" :user "root"}
-            {:host "127.0.0.102" :user "root"}
-            {:host "127.0.0.89" :user "root"}])
+  :clients [{:host "n1" :user "root"}
+            {:host "n2" :user "root"}
+            {:host "n3" :user "root"}
+            {:host "n4" :user "root"}
+            {:host "n5" :user "root"}])
 
 (deftask :date "echo date on cluster"  []
   (ssh "date"))
