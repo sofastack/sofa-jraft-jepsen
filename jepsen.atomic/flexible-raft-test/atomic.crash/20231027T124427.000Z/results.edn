@@ -1,0 +1,8 @@
+{:perf
+ {:latency-graph {:valid? true},
+  :rate-graph {:valid? true},
+  :valid? true},
+ :linear
+ {:valid? true, :model {:value 1}, :final-paths (), :configs ()},
+ :timeline {:valid? true},
+ :valid? true}
